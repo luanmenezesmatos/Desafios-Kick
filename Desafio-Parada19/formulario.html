@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulário de Inscrição</title>
+  <meta charset="utf-8">
+  <script src="js/codigo.js" defer></script>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+  <h1>Formulário de Inscrição</h1>
+
+  <form id="formRegistro">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" required><br><br>
+
+    <span id="telefoneErro" style="color: red;"></span><br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="button" id="limparBotao">Limpar</button>
+  </form>
+
+  <h2>Dados de Inscrição:</h2>
+
+  <table id="tabelaRegistro">
+    <tr>
+      <th>Nome</th>
+      <th>E-mail</th>
+      <th>Telefone</th>
+    </tr>
+  </table>
+  <br><br>
+  <button type="button" id="limparTabelaBotao">Limpar Tabela</button>
+</body>
+
+</html>

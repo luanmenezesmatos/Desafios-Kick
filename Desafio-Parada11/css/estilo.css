@@ -1,0 +1,96 @@
+/* Estilo para o body */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a tabela */
+table {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+/* Estilo para as células da tabela */
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para o cabeçalho da página */
+#header_box {
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#header_box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilo para a navegação */
+#nav_box {
+    height: 40px;
+    background-color: #f1f1f1;
+}
+
+#nav_box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_box li {
+    display: inline-block;
+}
+
+#nav_box a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#nav_box a:hover {
+    background-color: #ccc;
+}
+
+.ativo {
+    background-color: #e0e0e0;
+    color: #fff;
+}
+
+/* Estilo para as seções de conteúdo */
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.section img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé */
+#footer_box {
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}

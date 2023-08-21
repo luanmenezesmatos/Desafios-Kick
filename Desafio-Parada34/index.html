@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boletim Escolar</title>
+    <meta charset="utf-8" />
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Boletim Escolar</h1>
+    </div>
+    <div class="container">
+      <div class="form-group">
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" step="0.01" min="1" max="10" required />
+      </div>
+      <div class="form-group">
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" step="0.01" min="1" max="10" required />
+      </div>
+      <div class="form-group">
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" step="0.01" min="1" max="10" required />
+      </div>
+      <button class="btn-calculate" onclick="calcularMedia()">
+        Calcular Média
+      </button>
+      <div class="result" id="resultContainer" style="display: none">
+        <p class="grade-label">Média:</p>
+        <p class="grade" id="media"></p>
+        <p class="status" id="resultado"></p>
+      </div>
+    </div>
+    <div class="footer">Desenvolvido por <b>Luan Menezes</b></div>
+  </body>
+</html>
